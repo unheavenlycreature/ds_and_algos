@@ -21,4 +21,5 @@ The implementation provides the following public methods:
 
 ## Knights Travails
 
-TODO: Implement and document.
+The file `knights_moves.rb` contains a method `knights_moves` which calculates
+the shortest path a knight on a chess board can take from a space `[x1, y1]` to `[x2, y2]` by using breadth first search on the board, represented as a graph.
