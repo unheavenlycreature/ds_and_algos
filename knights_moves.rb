@@ -47,6 +47,7 @@ def adjacent_spaces(pos)
 
   # Right two, back one.
   spaces << [pos[0] + 2, pos[1] - 1] if pos[0] + 2 <= MAX_POS && pos[1] - 1 >= MIN_POS
+  
   # Right one, forward two.
   spaces << [pos[0] + 1, pos[1] + 2] if pos[0] + 1 <= MAX_POS && pos[1] + 2 <= MAX_POS
 
